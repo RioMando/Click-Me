@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.thumbnails {
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.thumbnails li {
+  float: left;
+  width: 21%;
+  position: relative;
+  padding: 1px;
+  min-height: 125px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  margin: .5% 2%;
+}
+.thumbnails li img {
+  max-width: 100%;
+  display: block;
+  position: absolute;
+  max-height: 115px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
