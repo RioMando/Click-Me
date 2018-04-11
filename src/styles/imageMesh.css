@@ -4,6 +4,7 @@
   list-style: none;
   box-sizing: border-box;
 }
+
 .thumbnails {
   overflow: hidden;
   display: block;
@@ -23,6 +24,7 @@
   overflow: hidden;
   margin: .5% 2%;
 }
+
 .thumbnails li img {
   max-width: 100%;
   display: block;

@@ -7,8 +7,6 @@ const Navbar = () => (
 //       image or you will lost.</small></h2>
 // </div>
 
-
-
   <nav className="navbar navbar-default navbar-fixed-top">
     <div className="container-fluid">
       <div className="navbar-header">
@@ -25,7 +23,7 @@ const Navbar = () => (
           <span className="icon-bar" />
           <span className="icon-bar" />
         </button>
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand">
           Click-Me Game
         </a>
         <p className="navbar-text" id="display-text">Click an image to begin!</p>
