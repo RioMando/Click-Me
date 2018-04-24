@@ -26,9 +26,9 @@ const Navbar = () => (
         <a className="navbar-brand">
           Click-Me Game
         </a>
-        <p className="navbar-text" id="display-text">Click an image to begin!</p>
-        <p className="navbar-text">Score:<div id="score" /></p>
-        <p className="navbar-text navbar-right">| Top Score: <div id="max-score" /></p>
+        <div className="navbar-text" id="display-text">Click an image to begin!</div>
+        <div className="navbar-text">Score:<div id="score" /></div>
+        <div className="navbar-text navbar-right">| Top Score: <div id="max-score" /></div>
 
       </div>
     </div>

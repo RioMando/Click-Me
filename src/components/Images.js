@@ -1,5 +1,5 @@
  import React from "react";
- import "../styles/imageMesh.css"
+ import "../styles/imageMesh.css";
 
 const HelloImage = () => (
 	<div>
