@@ -8,7 +8,7 @@ This is a game where you must click just once every image.
 
 ![alt text](src/styles/HomePage.PNG "Description goes here")
 
-Technologies used:
+###Technologies used:
 ###Bootstrap
 ###Yarn
 ###React
