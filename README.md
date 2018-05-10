@@ -6,10 +6,10 @@ This is a game where you must click just once every image.
 ### You will see the homepage of the app
 
 
-![alt text](src/styles/HomePage.PNG "Description goes here")
+![Initial Page]('./assets/images/HomePage.PNG' "Intial game's page")
 
-###Technologies used:
-###Bootstrap
-###Yarn
-###React
+### Technologies used:
+### Bootstrap
+### Yarn
+### React
 
