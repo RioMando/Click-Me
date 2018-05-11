@@ -6,7 +6,7 @@ This is a game where you must click just once every image.
 ### You will see the homepage of the app
 
 
-![picture](src/assets/images/HomePage.PNG)
+![picture](src/assets/images/Home-Page.PNG)
 
 ### Technologies used:
 #### Bootstrap
