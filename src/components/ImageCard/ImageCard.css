@@ -4,28 +4,28 @@
   list-style: none;
   box-sizing: border-box;
 }
-.thumbnails {
-  overflow: hidden;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
+
+body {
+  background-image: url("https://images.alphacoders.com/107/thumb-1920-107763.jpg");
+  max-width: 100%;
 }
 
-.thumbnails li {
+ .img-container {
+  overflow: hidden;
   float: left;
-  width: 21%;
+  width: 20%;
   position: relative;
   padding: 1px;
   min-height: 125px;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   border: 1px solid #ccc;
   overflow: hidden;
   margin: .5% 2%;
 }
-.thumbnails li img {
+
+.img-container > img {
   max-width: 100%;
-  display: block;
+  /* display: block; */
   position: absolute;
   max-height: 115px;
   top: 50%;
