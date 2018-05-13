@@ -10,5 +10,7 @@ This is a game where you must click just once every image.
 
 ### Technologies used:
 #### Bootstrap
+#### Node
 #### React
+
 

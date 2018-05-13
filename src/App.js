@@ -1,30 +1,39 @@
-import React from 'react';
-
+import React, { Component } from 'react';
 import ImageCard from "./components/ImageCard";
+import Wrapper from "./components/Wrapper";
 import Navbar from './components/Navbar';
 import Jumbotron from './components/Jumbotron';
 import images from './images.json';
+// import "./App.css"
+
+class App extends Component {
+  // Setting this.state.images to the images json array
+  state = {
+    images
+  };
+
+  // Map over thios.state.images and render a ImageCard component for each Image object
+  render() {
+    return (
+      <Wrapper>
+        <Navbar />
+        <Jumbotron />
+        {this.state.images.map(image => (
+          <ImageCard 
+            id={image.id}
+            key={image.id}
+            name={image.name}
+            image={image.image}
+          />
+        ))}
+      </Wrapper>
+    );
+  }
+}
+
+ export default App;
 
 
-const App = () => (
-  <div className="container">
-    <Navbar />
-    <Jumbotron />
-    
-    <ImageCard image={images[0].image} />
-    <ImageCard image={images[1].image} />
-    <ImageCard image={images[2].image} />
-    <ImageCard image={images[3].image} />
-    <ImageCard image={images[4].image} />
-    <ImageCard image={images[5].image} />
-    <ImageCard image={images[6].image} />
-    <ImageCard image={images[7].image} />
-    <ImageCard image={images[8].image} />
-    <ImageCard image={images[9].image} />
-    <ImageCard image={images[10].image} />
-    <ImageCard image={images[11].image} />
-  </div>
-      
-);
 
-export default App;
+
+
